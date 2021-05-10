@@ -1,17 +1,13 @@
-# :earth_americas: ApexTech Software
+# :clipboard: ApexTech Software
 
-Projeto desenvolvido durante as aulas de "POO", onde fizemos o consumo de uma API para realizar a pesquisa da situação climática de um lugar específico informado. Toda paste de código foi feito na mais conhecida IDE "NetBeans" com a seguinte estrutura: 
-```sh
-index.jsp;
-br.uninove.api/Http.java;
-br.uninove.uniweather/Clima.java;
-br.uninove.uniweather/Clouds.java;
-br.uninove.uniweather/Coord.java;
-br.uninove.uniweather/Main.java;
-br.uninove.uniweather/Sys.java;
-br.uninove.uniweather/Weather.java;
-br.uninove.uniweather/Wind.java;
-```
+Projeto desenvolvido e atrelado com a disciplina de "Projeto Prático em Construção de Sistemas Computacionais", onde o mesmo tem por seu objetivo organizar e controlar o estoque do estabelecimento, contando com as seguintes funções:
+
+- Cadastrar Usuário (Administrador e Vendedor);
+- Cadastrar Produtos;
+- Alterar Produtos;
+- Ativar/Desativar Produtos;
+- Cadastrar Fabricantes;
+- Registrar saídas do estoque (vendas);
 
 ---
 
@@ -32,18 +28,16 @@ br.uninove.uniweather/Wind.java;
 
 ---
 
-### :link: Instalação e Configuração:
-- Instale o [NetBeans IDE 8.2](https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html) ou outro desejado;
-- Necessário a instalação do [GlassFish Server](https://javaee.github.io/glassfish/download) para rodar o projeto com API;
-- No NetBeans: instalar os seguintes plugins:
+### :link: Configuração:
+- Necessário a instalação do para rodar o projeto com API;
+- Abaixo segue as tabelas do Banco de Dados:
 ```sh
-Java EE Base;
-EJB e EAR;
+Tabela Usuários;
+Tabela Clientes;
+Tabela Produtos;
+Tabela Fabricantes;
+Tabela Venda;
 ```
-- Acesse o site [OpenWeatherMap](https://openweathermap.org/) e se inscreva para realizar a liberação de sua API Key e ter acesso a todas suas funcionalidades;
-- No Código (br.uninove.api.Http.java) terá o campo para colar a sua API Key;
-- Após isso, informe o local desejado e saiba o clima atual!! :partly_sunny:
-
 ---
 
 HigorRoc® 
