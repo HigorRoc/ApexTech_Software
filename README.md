@@ -5,6 +5,7 @@
 <p align="center">
   <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-estrutura">Estrutura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="speech_balloon-contatos">Contatos</a>
@@ -17,12 +18,12 @@
 </p>
 
 <p align="center">
-  Projeto desenvolvido e atrelado com a disciplina de "Projeto Prático em Construção de Sistemas" da UNINOVE, onde o mesmo tem por seu objetivo organizar e controlar o estoque     de um respectivo estabelecimento, contando com as seguintes funções:
+  Projeto desenvolvido e atrelado com a disciplina de "Projeto Prático em Construção de Sistemas" da UNINOVE, onde o mesmo tem por seu objetivo organizar e controlar o estoque     de um respectivo estabelecimento. Todos produtos possuindo Nome, Fabricante, Representante, Quantidade, Valor de Compra, Valor de Venda, Data do Registro e uma imagem           (opciona) por questão de estética.  
 </p>
 
 <br/>
 
-## 🚀 Funcionalidades
+## 🛠 Funcionalidades
 - Cadastrar Usuário (Administrador e Vendedor);
 - Ativar/Desativar Funcionário;
 - Cadastrar Produtos;
@@ -35,17 +36,27 @@
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-![HTML5](https://img.shields.io/badge/-HTML5-05122A?&logo=HTML5&logoColor=FFFFFF)&nbsp;
-![CSS3](https://img.shields.io/badge/-CSS3-05122A?&logo=CSS3&logoColor=FFFFFF)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?&logo=JavaScript&logoColor=FFFFFF)&nbsp;
-![Php](https://img.shields.io/badge/-PhP-05122A?&logo=Php&logoColor=FFFFFF)&nbsp; 
-![BootStrap](https://img.shields.io/badge/-BootStrap-05122A?&logo=BootStrap&logoColor=FFFFFF)&nbsp;
-![VSCode](https://img.shields.io/badge/-VSCode-05122A?&logo=Visual%20Studio%20Code&logoColor=FFFFFF)&nbsp; 
-![Git](https://img.shields.io/badge/-Git-05122A?&logo=git&logoColor=FFFFFF)&nbsp;
+- Frontend: 
+![HTML5](https://img.shields.io/badge/-HTML5-05122A?&logo=HTML5&logoColor=FFFFFF)
+![CSS3](https://img.shields.io/badge/-CSS3-05122A?&logo=CSS3&logoColor=FFFFFF)
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?&logo=JavaScript&logoColor=FFFFFF)
+
+- Backend:
+![Php](https://img.shields.io/badge/-PhP-05122A?&logo=Php&logoColor=FFFFFF)
+
+- Biblioteca:
+![BootStrap](https://img.shields.io/badge/-BootStrap-05122A?&logo=BootStrap&logoColor=FFFFFF) 
+
+- Banco de Dados:
+![MySQL](https://img.shields.io/badge/-MySQL-05122A?&logo=mysql&logoColor=FFFFFF)
+
+- Desenvolvimento e Versionamento:
+![VSCode](https://img.shields.io/badge/-VSCode-05122A?&logo=Visual%20Studio%20Code&logoColor=FFFFFF) 
+![Git](https://img.shields.io/badge/-Git-05122A?&logo=git&logoColor=FFFFFF)
 
 
-## 🚀 Tecnologias
-A estrutura de arquivos está da seguinte maneira:
+## 🔗 Estrutura
+A estrutura de arquivos deste projeto se encontra da seguinte maneira:
 
 ```bash
 rocketseat-basic
@@ -75,8 +86,8 @@ rocketseat-basic
 └── README.md
 ```
 
-## 🚀 Layout
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 💻 Layout
+Abaixo segue algumas imagens do Layout básico do ApexTech. As Imagens estão 
 
 
 ## :memo: Licença
