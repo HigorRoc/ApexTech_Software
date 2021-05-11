@@ -24,13 +24,14 @@
 <br/>
 
 ## 🛠 Funcionalidades
-- Cadastrar Usuário (Administrador e Vendedor);
-- Ativar/Desativar Funcionário;
-- Cadastrar Produtos;
-- Alterar Produtos;
-- Ativar/Desativar Produtos;
-- Cadastrar Fabricantes;
-- Registrar saídas do estoque (vendas);
+- Cadastrar `Usuários`;
+- Ativar/Desativar `Usuários`;
+- Cadastrar `Produtos`;
+- Alterar `Produtos`;
+- Ativar/Desativar `Produtos`;
+- Cadastrar `Fabricantes`;
+- Cadastrar `Representantes`;
+- Registrar `Venda`;
 
 
 ## 🚀 Tecnologias
@@ -59,7 +60,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 A estrutura de arquivos deste projeto se encontra da seguinte maneira:
 
 ```bash
-rocketseat-basic
+apextech-software
 ├── src/
 │   ├── config/
 │   │   └── ReactotronConfig.js
