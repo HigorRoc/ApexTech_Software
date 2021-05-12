@@ -5,7 +5,6 @@
 <p align="center">
   <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-estrutura">Estrutura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="speech_balloon-contatos">Contatos</a>
@@ -23,6 +22,7 @@
 
 <br/>
 
+<!-- LINGUAGENS -->
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -42,7 +42,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - `Versionamento` ![Git](https://img.shields.io/badge/-Git-05122A?&logo=git&logoColor=FFFFFF)
                 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?&logo=github&logoColor=FFFFFF)
 
-
+<!-- REQUISITOS DO SISTEMA -->
 ## 🛠 Funcionalidades
 - `Cadastrar Usuários` | Realizar o Cadastro do usuário com Nome, Email, Senha e Foto do perfil;
 - `Ativar/Desativar Usuários` | Realizar a ativação ou desativação do usuário no acesso ao sistema;
@@ -53,27 +53,84 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - `Cadastrar Representantes` | Realizar o Cadastro de Representantes dos fabricantes com Nome e Email;
 - `Registrar Venda` | Realizar o registro de uma venda e automaticamente atualizado a quantidade no estoque;
 
-
+<!--
 ## 🔗 Estrutura
 A estrutura de arquivos deste projeto se encontra da seguinte maneira:
+```
+apextech-software
+├── App/
+│   └── Database/
+│       └── --todas as ações (delete, insert, search)--
+│   └── Models/
+|       ├── cliente.class.php
+|       ├── connect.php
+|       ├── fabricante.class.php
+|       ├── itens.class.php
+|       ├── produtos.class.php
+|       ├── representante.class.php
+|       ├── usuario.class.php
+|       └── vendas.class.php
+│   ├── auth.php
+│   ├── session.php
+├── DB
+│   ├── controlestoque.sql
+│   └── controlestoque_bkp.sql
+├── layout
+│   ├── alert.php
+│   ├── conteudo.php
+│   └── script.php
+├── views
+│   ├── bootstrap/
+|       ├── css
+|       ├── fonts
+|       └── js
+│   ├── build/
+|       ├── bootstrap-less
+|       └── less
+│   ├── cliente/
+|       ├── addcliente.php
+|       └── index.php
+│   ├── dist/
+|       ├── css
+|       ├── img
+|       └── js
+│   ├── fabricante/
+|       ├── addfabricante.php
+|       ├── editfabricante.php
+|       └── index.php
+│   ├── itens/
+|       ├── additens.php
+|       ├── edititens.php
+|       └── index.php
+│   ├── plugins/
+│   ├── prod/
+|       ├── addprod.php
+|       └── index.php
+│   ├── representate/
+|       ├── addrepresentante.php
+|       └── index.php
+│   ├── usuarios/
+│   ├── vendas/
+│   ├── destroy.php
+│   └── index.php
+├── .gitignore
+├── index.php
+├── LICENSE
+├── login.php
+└── README.md
+```
+-->
 
-
+<!-- LAYOUT DO SISTEMA -->
 ## 💻 Layout
 Você pode visualizar o layout básico do projeto através [desse link](https://drive.google.com/drive/folders/1MTBgjYxiI5z4GsS7MLQ7EoeI76opLBsr?usp=sharing). Lembrando que não é necessáario ter uma conta no Google Drive para acessá-lo.
 (imagens com baixa resolução, o vídeo presente na pasta tem um melhor resultado e demonstração). 
 
-<!--
-<h1 align="center">
-    <img alt="Proffy" title="ApexTech" src=".apextech/ApexLogin.png" width=450px height=265px/>
-    <img alt="Proffy" title="ApexTech" src=".apextech/ApexProdCadastrados.png" width=450px height=265px/>
-    <img alt="Proffy" title="ApexTech" src=".apextech/ApexVenda.png" width=450px height=265px/>
-</h1>
--->
-
+<!-- LICENSE  -->
 ## :memo: Licença
 Esse projeto está sob a licença Apache 2.0. Veja o arquivo [LICENSE](LICENSE.md) para maiores detalhes.
 
-
+<!-- CONTATOS -->
 ## :speech_balloon: Contatos
 [![Instagram](https://img.shields.io/badge/-Instagram_-E4405F?&logo=Instagram&logoColor=FFFFFF)](https://instagram.com/hiigorrocha_)&nbsp;
 [![Linkedin](https://img.shields.io/badge/-Linkedln-0A66C2?&logo=Linkedin&logoColor=FFFFFF)](https://www.linkedin.com/in/higor-silva18/)&nbsp;
