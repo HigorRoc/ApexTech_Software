@@ -25,21 +25,21 @@
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- `Frontend` ![HTML5](https://img.shields.io/badge/-HTML5-05122A?&logo=HTML5&logoColor=FFFFFF) 
-           ![CSS3](https://img.shields.io/badge/-CSS3-05122A?&logo=CSS3&logoColor=FFFFFF)
-           ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?&logo=JavaScript&logoColor=FFFFFF)
+- `Frontend` ![HTML5](https://img.shields.io/badge/-HTML5-05122A?&logo=HTML5) 
+             ![CSS3](https://img.shields.io/badge/-CSS3-05122A?&logo=CSS3&logoColor=007ACC)
+             ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?&logo=JavaScript)
 
-- `Backend` ![Php](https://img.shields.io/badge/-PhP-05122A?&logo=Php&logoColor=FFFFFF)
+- `Backend` ![Php](https://img.shields.io/badge/-PhP-05122A?&logo=Php)
 
-- `Biblioteca` ![BootStrap](https://img.shields.io/badge/-BootStrap-05122A?&logo=BootStrap&logoColor=FFFFFF)
+- `Biblioteca` ![BootStrap](https://img.shields.io/badge/-BootStrap-05122A?&logo=BootStrap)
 
-- `Banco de Dados` ![MySQL](https://img.shields.io/badge/-MySQL-05122A?&logo=mysql&logoColor=FFFFFF)
+- `Banco de Dados` ![MySQL](https://img.shields.io/badge/-MySQL-05122A?&logo=mysql)
 
-- `Ferramentas` ![VSCode](https://img.shields.io/badge/-VSCode-05122A?&logo=Visual%20Studio%20Code&logoColor=FFFFFF)
-              ![Wampserver](https://img.shields.io/badge/-Wampserver-05122A?&logo=WampServer&logoColor=FFFFFF)
+- `Ferramentas` ![VSCode](https://img.shields.io/badge/-VSCode-05122A?&logo=Visual%20Studio%20Code&logoColor=007ACC)
+                ![Wampserver](https://img.shields.io/badge/-Wampserver-05122A?&logo=WampServer&logoColor=FFFFFF)
               
-- `Versionamento` ![Git](https://img.shields.io/badge/-Git-05122A?&logo=git&logoColor=FFFFFF)
-                ![GitHub](https://img.shields.io/badge/-GitHub-05122A?&logo=github&logoColor=FFFFFF)
+- `Versionamento` ![Git](https://img.shields.io/badge/-Git-05122A?&logo=git)
+                  ![GitHub](https://img.shields.io/badge/-GitHub-05122A?&logo=github)
 
 <!-- REQUISITOS DO SISTEMA -->
 ## 🛠 Funcionalidades
