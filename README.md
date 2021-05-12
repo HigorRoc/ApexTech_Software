@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Proffy" title="ApexTech" src=".apextech/logo2.png" width=400px height=100px/>
+    <img alt="Proffy" title="ApexTech" src=".apextech/logo2.png" width=370px height=100px/>
 </h1>
 
 <p align="center">
@@ -12,9 +12,9 @@
 </p>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=Version&message=1.0&color=A9A9A9&labelColor=1C1C1C" alt="Version 1.0"/>
+ <img src="https://img.shields.io/static/v1?label=Version&message=1.0&color=A9A9A9&labelColor=000000" alt="Version 1.0"/>
 
-  <img alt="License" src="https://img.shields.io/static/v1?label=License&message=apache%202.0&color=A9A9A9&labelColor=1C1C1C">
+  <img alt="License" src="https://img.shields.io/static/v1?label=License&message=apache%202.0&color=A9A9A9&labelColor=000000">
 </p>
 
 <p align="center">
@@ -26,20 +26,20 @@
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-> Frontend ![HTML5](https://img.shields.io/badge/-HTML5-05122A?&logo=HTML5&logoColor=FFFFFF) 
+- `Frontend` ![HTML5](https://img.shields.io/badge/-HTML5-05122A?&logo=HTML5&logoColor=FFFFFF) 
            ![CSS3](https://img.shields.io/badge/-CSS3-05122A?&logo=CSS3&logoColor=FFFFFF)
            ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?&logo=JavaScript&logoColor=FFFFFF)
 
-> Backend ![Php](https://img.shields.io/badge/-PhP-05122A?&logo=Php&logoColor=FFFFFF)
+- `Backend` ![Php](https://img.shields.io/badge/-PhP-05122A?&logo=Php&logoColor=FFFFFF)
 
-> Biblioteca ![BootStrap](https://img.shields.io/badge/-BootStrap-05122A?&logo=BootStrap&logoColor=FFFFFF)
+- `Biblioteca` ![BootStrap](https://img.shields.io/badge/-BootStrap-05122A?&logo=BootStrap&logoColor=FFFFFF)
 
-> Banco de Dados ![MySQL](https://img.shields.io/badge/-MySQL-05122A?&logo=mysql&logoColor=FFFFFF)
+- `Banco de Dados` ![MySQL](https://img.shields.io/badge/-MySQL-05122A?&logo=mysql&logoColor=FFFFFF)
 
-> Ferramentas ![VSCode](https://img.shields.io/badge/-VSCode-05122A?&logo=Visual%20Studio%20Code&logoColor=FFFFFF)
+- `Ferramentas` ![VSCode](https://img.shields.io/badge/-VSCode-05122A?&logo=Visual%20Studio%20Code&logoColor=FFFFFF)
               ![Wampserver](https://img.shields.io/badge/-Wampserver-05122A?&logo=WampServer&logoColor=FFFFFF)
               
-> Versionamento ![Git](https://img.shields.io/badge/-Git-05122A?&logo=git&logoColor=FFFFFF)
+- `Versionamento` ![Git](https://img.shields.io/badge/-Git-05122A?&logo=git&logoColor=FFFFFF)
                 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?&logo=github&logoColor=FFFFFF)
 
 
@@ -59,10 +59,10 @@ A estrutura de arquivos deste projeto se encontra da seguinte maneira:
 
 ```bash
 apextech-software
-├── src/
-│   ├── config/
+├── App/
+│   ├── Database/
 │   │   └── ReactotronConfig.js
-│   ├── images/
+│   ├── Models/
 │   │   ├── rocketseat_logo_roxa.png
 │   │   └── rocketseat_logo.png
 │   ├── pages/
@@ -72,8 +72,13 @@ apextech-software
 │   │   └── api.js
 │   ├── index.js
 │   └── routes.js
-├── .editorconfig
-├── .eslintrc.json
+├── DB
+│   ├── controlestoque.sql
+│   ├── controlestoque_bkp.sql
+├── Layout
+│   ├── alert.php
+│   ├── conteudo.php
+│   ├── script.php
 ├── .gitignore
 ├── babel.config.js
 ├── dependencies.json
