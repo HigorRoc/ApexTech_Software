@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Proffy" title="ApexTech" src=".apextech/logo.png" width=420px height=100px/>
+    <img alt="Proffy" title="ApexTech" src=".apextech/logo2.png" width=420px height=100px/>
 </h1>
 
 <p align="center">
@@ -79,7 +79,13 @@ apextech-software
 ```
 
 ## 💻 Layout
-Abaixo segue algumas imagens do Layout básico do ApexTech. As Imagens estão 
+Abaixo segue algumas imagens do Layout básico do ApexTech. São elas a Tela de Logim, Tela de Produtos Cadastrados e Tela onde realiza o Registro da Venda.
+
+<h1 align="center">
+    <img alt="Proffy" title="ApexTech" src=".apextech/ApexLogin.png" width=450px height=265px/>
+    <img alt="Proffy" title="ApexTech" src=".apextech/ApexProdCadastrados.png" width=450px height=265px/>
+    <img alt="Proffy" title="ApexTech" src=".apextech/ApexVenda.png" width=450px height=265px/>
+</h1>
 
 
 ## :memo: Licença
