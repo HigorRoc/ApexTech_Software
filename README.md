@@ -44,61 +44,31 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 🛠 Funcionalidades
-- `Cadastrar Usuários` | Realizar o Cadastro do usuário com Nome, Email, Senha e Foto do perfil (opciomal);
-- `Ativar/Desativar Usuários` | Realizar a desativação do usuário, por exemplo, caso o mesmo seja desligado e não possa mais ter acesso ao sistema;
-- `Cadastrar Produtos` | Realizar o Cadastro de Produtos com Nome, Fabricante, Quantidade, Valor de Compra, Valor de Venda, Data de Registro e uma imagem (opcional);
-- `Alterar Produtos` | Realizar a Alteração de dados do produto cadastrado, por exemplo, quando ocorrer um aumento/queda de valores;
-- `Ativar/Desativar Produtos` | Realizar a desativação de um produto, por exemplo, caso o mesmo tenha se tornado obsoleto, ou não seja mais vendido pela loja;
-- `Cadastrar Fabricantes` | Realizar o Cadastro de Fabricantes dos produtos da loja com Nome/Razão Social, CPF/CNPJ e email;
+- `Cadastrar Usuários` | Realizar o Cadastro do usuário com Nome, Email, Senha e Foto do perfil;
+- `Ativar/Desativar Usuários` | Realizar a ativação ou desativação do usuário no acesso ao sistema;
+- `Cadastrar Produtos` | Realizar o Cadastro de Produtos com Nome, Fabricante, Quantidade, Valor de Compra e Venda;
+- `Alterar Produtos` | Realizar a Alteração de dados do produto cadastrado;
+- `Ativar/Desativar Produtos` | Realizar a ativação ou desativação de um produto, caso o mesmo tenha se tornado obsoleto;
+- `Cadastrar Fabricantes` | Realizar o Cadastro de Fabricantes dos produtos com Nome/Razão Social, CPF/CNPJ e email;
 - `Cadastrar Representantes` | Realizar o Cadastro de Representantes dos fabricantes com Nome e Email;
-- `Registrar Venda` | Realizar o registro de uma venda, com isso, aquele produto é automaticamente atualizado a quantidade no estoque;
+- `Registrar Venda` | Realizar o registro de uma venda e automaticamente atualizado a quantidade no estoque;
 
 
 ## 🔗 Estrutura
 A estrutura de arquivos deste projeto se encontra da seguinte maneira:
 
-```bash
-apextech-software
-├── App/
-│   ├── Database/
-│   │   └── ReactotronConfig.js
-│   ├── Models/
-│   │   ├── rocketseat_logo_roxa.png
-│   │   └── rocketseat_logo.png
-│   ├── pages/
-│   │   └── Main/
-│   │       └── index.js
-│   ├── services/
-│   │   └── api.js
-│   ├── index.js
-│   └── routes.js
-├── DB
-│   ├── controlestoque.sql
-│   ├── controlestoque_bkp.sql
-├── Layout
-│   ├── alert.php
-│   ├── conteudo.php
-│   ├── script.php
-├── .gitignore
-├── babel.config.js
-├── dependencies.json
-├── devDependencies.json
-├── index.js
-├── jsconfig.js
-├── LICENSE
-├── package.json
-└── README.md
-```
 
 ## 💻 Layout
-Abaixo segue algumas imagens do Layout básico do ApexTech. São elas a Tela de Logim, Tela de Produtos Cadastrados e Tela onde realiza o Registro da Venda.
+Você pode visualizar o layout básico do projeto através [desse link](https://drive.google.com/drive/folders/1MTBgjYxiI5z4GsS7MLQ7EoeI76opLBsr?usp=sharing). Lembrando que não é necessáario ter uma conta no Google Drive para acessá-lo.
+(imagens com baixa resolução, o vídeo presente na pasta tem um melhor resultado e demonstração). 
 
+<!--
 <h1 align="center">
     <img alt="Proffy" title="ApexTech" src=".apextech/ApexLogin.png" width=450px height=265px/>
     <img alt="Proffy" title="ApexTech" src=".apextech/ApexProdCadastrados.png" width=450px height=265px/>
     <img alt="Proffy" title="ApexTech" src=".apextech/ApexVenda.png" width=450px height=265px/>
 </h1>
-
+-->
 
 ## :memo: Licença
 Esse projeto está sob a licença Apache 2.0. Veja o arquivo [LICENSE](LICENSE.md) para maiores detalhes.
