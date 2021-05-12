@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Proffy" title="ApexTech" src=".apextech/logo2.png" width=370px height=100px/>
+    <img alt="ApexTech" title="ApexTech" src=".apextech/logo2.png" width=370px height=100px/>
 </h1>
 
 <p align="center">
@@ -11,9 +11,8 @@
 </p>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=Version&message=1.0&color=A9A9A9&labelColor=000000" alt="Version 1.0"/>
-
-  <img alt="License" src="https://img.shields.io/static/v1?label=License&message=apache%202.0&color=A9A9A9&labelColor=000000">
+    <img src="https://img.shields.io/static/v1?label=Version&message=1.0&color=A9A9A9&labelColor=000000" alt="Version 1.0"/>
+    <img alt="License" src="https://img.shields.io/static/v1?label=License&message=apache%202.0&color=A9A9A9&labelColor=000000">
 </p>
 
 <p align="center">
@@ -129,6 +128,13 @@ Você pode visualizar o layout básico do projeto através [desse link](https://
 <!-- LICENSE  -->
 ## :memo: Licença
 Esse projeto está sob a licença Apache 2.0. Veja o arquivo [LICENSE](LICENSE.md) para maiores detalhes.
+
+<!-- CONTRIBUIDORES  -->
+## :memo: Contribuidores
+<p>
+    <img alt="Higor" title="Higor" src=".apextech/higor.png" width=90px height=90px/>
+    <img alt="Victor" title="Victor" src=".apextech/victor.png" width=90px height=90px/>
+</p>
 
 <!-- CONTATOS -->
 ## :speech_balloon: Contatos
