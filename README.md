@@ -18,42 +18,33 @@
 </p>
 
 <p align="center">
-  Projeto desenvolvido e atrelado com a disciplina de "Projeto Prático em Construção de Sistemas" da UNINOVE, onde o mesmo tem por seu objetivo organizar e controlar o estoque     de um respectivo estabelecimento. Todos produtos possuindo Nome, Fabricante, Representante, Quantidade, Valor de Compra, Valor de Venda, Data do Registro e uma imagem           (opciona) por questão de estética.  
+  Projeto desenvolvido e atrelado com a disciplina de "Projeto Prático em Construção de Sistemas" da UNINOVE, onde o mesmo tem por seu objetivo organizar e controlar o estoque     de um respectivo estabelecimento. 
 </p>
 
 <br/>
 
-## 🛠 Funcionalidades
-- Cadastrar `Usuários`;
-- Ativar/Desativar `Usuários`;
-- Cadastrar `Produtos`;
-- Alterar `Produtos`;
-- Ativar/Desativar `Produtos`;
-- Cadastrar `Fabricantes`;
-- Cadastrar `Representantes`;
-- Registrar `Venda`;
-
-
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Frontend: 
 ![HTML5](https://img.shields.io/badge/-HTML5-05122A?&logo=HTML5&logoColor=FFFFFF)
 ![CSS3](https://img.shields.io/badge/-CSS3-05122A?&logo=CSS3&logoColor=FFFFFF)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?&logo=JavaScript&logoColor=FFFFFF)
-
-- Backend:
 ![Php](https://img.shields.io/badge/-PhP-05122A?&logo=Php&logoColor=FFFFFF)
-
-- Biblioteca:
 ![BootStrap](https://img.shields.io/badge/-BootStrap-05122A?&logo=BootStrap&logoColor=FFFFFF) 
-
-- Banco de Dados:
 ![MySQL](https://img.shields.io/badge/-MySQL-05122A?&logo=mysql&logoColor=FFFFFF)
-
-- Desenvolvimento e Versionamento:
 ![VSCode](https://img.shields.io/badge/-VSCode-05122A?&logo=Visual%20Studio%20Code&logoColor=FFFFFF) 
 ![Git](https://img.shields.io/badge/-Git-05122A?&logo=git&logoColor=FFFFFF)
+
+
+## 🛠 Funcionalidades
+- `Cadastrar Usuários` | Realizar o Cadastro do usuário com Nome, Email, Senha e Foto do perfil (opciomal);
+- `Ativar/Desativar Usuários` | Realizar a desativação do usuário, por exemplo, caso o mesmo seja desligado e não possa mais ter acesso ao sistema;
+- `Cadastrar Produtos` | Realizar o Cadastro de Produtos com Nome, Fabricante, Quantidade, Valor de Compra, Valor de Venda, Data de Registro e uma imagem (opcional);
+- `Alterar Produtos` | Realizar a Alteração de dados do produto cadastrado, por exemplo, quando ocorrer um aumento/queda de valores;
+- `Ativar/Desativar Produtos` | Realizar a desativação de um produto, por exemplo, caso o mesmo tenha se tornado obsoleto, ou não seja mais vendido pela loja;
+- `Cadastrar Fabricantes` | Realizar o Cadastro de Fabricantes dos produtos da loja com Nome/Razão Social, CPF/CNPJ e email;
+- `Cadastrar Representantes` | Realizar o Cadastro de Representantes dos fabricantes com Nome e Email;
+- `Registrar Venda` | Realizar o registro de uma venda, com isso, aquele produto é automaticamente atualizado a quantidade no estoque;
 
 
 ## 🔗 Estrutura
