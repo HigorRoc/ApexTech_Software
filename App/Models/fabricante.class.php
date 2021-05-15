@@ -1,8 +1,6 @@
     <?php
 
-    /*
-     Class produtos
-    */
+    /*Class Fabricantes*/
 
      require_once 'connect.php';
 

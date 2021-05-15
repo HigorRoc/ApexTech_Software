@@ -1,8 +1,6 @@
 <?php
 
-  /*
-   Class produtos
-  */
+  /*Class Usuario*/
 
    require_once 'connect.php';
 
@@ -19,12 +17,11 @@
    				echo '<li>';
    				echo $this->row['Username'];
    				echo ' | Tipo de permissão:  ';
-   				if($this->row['Permissao'] == 1){ echo 'Administrador'; }else{ echo 'Vendedor';}
+   				if($this->row['Permissao'] == 1){ echo 'Administrador'; }else{ echo 'Usuário';}
    				
    				echo '</li>';
 
    			}
-
 
    		}else{
    			echo "Você não tem Permissao de acesso a este conteúdo!";

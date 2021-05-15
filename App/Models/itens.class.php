@@ -1,8 +1,6 @@
   <?php
 
-  /*
-   Class produtos
-  */
+  /*Class Itens*/
 
    require_once 'connect.php';
 
@@ -38,15 +36,15 @@
         $idprodutos = $row['Produto_CodRefProduto'];
         $idFabricante = $row['Fabricante_idFabricante'];
         
+        //LISTA DO RELATÓRIO DE PRODUTOS
         echo '<li>';
-       $resp = Itens::listItens($idprodutos, $idFabricante);
-        echo '<b> Produto: '.$resp['NomeProduto'];
-        echo ' / Fabricante: '.$resp['Fabricante'];
-        echo '</b> Comprados: '.$resp['QuantItens'];
-        echo ' | Vendidos: '.$resp['QuantItensVend'];
-        echo ' | Em Estoque: '.$resp['Estoque'];
+          $resp = Itens::listItens($idprodutos, $idFabricante);
+        echo '<b> Produto: </b>'.$resp['NomeProduto'];
+        echo ' / <b> Fabricante: </b>'.$resp['Fabricante'];
+        echo '<b> &nbsp;&nbsp;&nbsp; Comprados: </b>'.$resp['QuantItens'];
+        echo ' | <b> Vendidos: </b> '.$resp['QuantItensVend'];
+        echo ' | <b> Em Estoque: </b>'.$resp['Estoque'];
         echo '</li>';
-
       }
 
     }
@@ -58,23 +56,23 @@
 
    		if($this->result){
 
-        echo '<table class="table">
-    <thead class="thead-inverse">
-      <tr>
-        <th>Ativo</th>
-        <th>Image</th>
-        <th>Nome Produto</th>
-        <th>Fabricante</th>
-        <th>Quant. Estoque</th>
-        <th>Quant. Vendido</th>
-        <th>V. Compra.</th>
-        <th>V. Vendido</th>
-        <th>Data Compra</th>
-        <th>Data Vencimento</th>
-        <th>Edit</th>
-        <th>Public</th>
-      </tr>
-    </thead>
+      //LISTA DOS PRODUTOS CADASTRADOS
+      echo '<table class="table">
+      <thead class="thead-inverse">
+        <tr>
+          <th>Status</th>
+          <th>Imagem</th>
+          <th>Nome Produto</th>
+          <th>Fabricante</th>
+          <th>Qtd. Estoque</th>
+          <th>Qtd. Vendido</th>
+          <th>Valor Compra</th>
+          <th>Valor Venda</th>
+          <th>Data Compra</th>
+          <th>Editar</th>
+          <th>Acesso</th>
+        </tr>
+      </thead>
     <tbody>';
 
    			while ($row = mysqli_fetch_array($this->result)) {
@@ -109,10 +107,9 @@
           <td>'.$row['NomeFabricante'].'</td>
           <td>'.$row['QuantItens'].'</td>
           <td>'.$row['QuantItensVend'].'</td>
-          <td>'.$row['ValCompItens'].'</td>
-          <td>'.$row['ValVendItens'].'</td>
-          <td>'.$row['DataCompraItens'].'</td>
-          <td>'.$row['DataVenci_Itens'].'</td>        
+          <td>R$ '.$row['ValCompItens'].'</td>
+          <td>R$ '.$row['ValVendItens'].'</td>
+          <td>'.$row['DataCompraItens'].'</td>      
           
           <td>
                 <a href="edititens.php?q='.$row['idItens'].'"><i class="fa fa-edit"></i></a>
@@ -127,27 +124,27 @@
 
 
     <!-- Modal -->
-  <div>
-    <form id="delItens'.$row['idItens'].'" name="delItens'.$row['idItens'].'" action="../../App/Database/delItens.php" method="post" style="color:#000;">
-    <div class="modal fade" id="myModal'.$row['idItens'].'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Você tem serteza que deseja alterar o status deste item na sua lista.</h4>
-          </div>
-          <div class="modal-body">
-            Código: '.$row['idItens'].' - '.$row['NomeProduto'].' - '.$row['NomeFabricante'].'
-          </div>
-          <input type="hidden" id="id" name="id" value="'.$row['idItens'].'">
-          <div class="modal-footer">
-            <button type="submit" value="Cancelar" class="btn btn-default">Não</button>
-            <button type="submit" name="update" value="Cadastrar" class="btn btn-primary">Sim</button>
+    <div>
+      <form id="delItens'.$row['idItens'].'" name="delItens'.$row['idItens'].'" action="../../App/Database/delItens.php" method="post" style="color:#000;">
+      <div class="modal fade" id="myModal'.$row['idItens'].'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Você tem serteza que deseja alterar o status deste item na sua lista.</h4>
+            </div>
+            <div class="modal-body">
+              Código: '.$row['idItens'].' - '.$row['NomeProduto'].' - '.$row['NomeFabricante'].'
+            </div>
+            <input type="hidden" id="id" name="id" value="'.$row['idItens'].'">
+            <div class="modal-footer">
+              <button type="submit" value="Cancelar" class="btn btn-default">Não</button>
+              <button type="submit" name="update" value="Cadastrar" class="btn btn-primary">Sim</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </form></div>
+      </form></div>
 
           </td>
             </tr>';
@@ -270,8 +267,6 @@
       
 
     }//ItensAtivo
-
-
 
   }
 

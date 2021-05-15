@@ -10,11 +10,11 @@ echo '<div class="content-wrapper">
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <h1>
-    Fabricante
+    Fabricantes
   </h1>
   <ol class="breadcrumb">
     <li><a href="../"><i class="fa fa-dashboard"></i> Home</a></li>
-    <li class="active">Fabricante</li>
+    <li class="active">Fabricantes</li>
   </ol>
 </section>
 
@@ -29,7 +29,7 @@ echo '<div class="content-wrapper">
     <div class="box-header">
       <i class="ion ion-clipboard"></i>
 
-      <h3 class="box-title">Lista de Fabricante</h3>
+      <h3 class="box-title">Lista de Fabricantes</h3>
 
       <div class="box-tools pull-right">
         <ul class="pagination pagination-sm inline">
@@ -41,53 +41,47 @@ echo '<div class="content-wrapper">
         </ul>
       </div>
     </div>
-    <!-- /.box-header -->
+ 
     <div class="box-body">
       <ul class="todo-list not-done">';
-
 
         if(isset($_POST['public']) != NULL){               
 
           $value = $_POST['public']; 
           if($value == 1){
             $public = 0;
-            $button_name = "Listar Desativados";
+            $button_name = "Inativos";
 
           }else{
             $public = 1;
-            $button_name = "Listar Publicados";
+            $button_name = "Ativos";
           }     
 
         }else{
           $value = 1;
           $public = 0;
-          $button_name = "Listar Desativados";
+          $button_name = "Inativos";
         }
-
 
         $fabricante->index($value, $perm);
 
         echo '</ul>
         <br/>
-        <!-- /.box-body -->
         <div class="left">
          <form action="index.php" method="post">
 
-         <button name="public" type="submit" value="'.$public.'" class="btn btn-default pull-left"><i class="fa fa-plus"></i> '.$button_name.'</button></div></form>
+         <button name="public" type="submit" value="'.$public.'" class="btn btn-default pull-left"><i class="fa fa-times-circle" aria-hidden="true"></i> '.$button_name.'</button></div></form>
 
-           <a href="addfabricante.php" type="button" class="btn btn-success pull-right"><i class="fa fa-plus"></i> Add Fabricante</a>
+           <a href="addfabricante.php" type="button" class="btn btn-success pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i> Add Fabricante</a>
          </div>
-       </div>
-       ';
+       </div>';
+
        echo '</div>';
        echo '</section>';
-
-       
-
 
        echo '</div>';
 
        echo  $footer;
        echo $javascript;
-       ?>
+?>
 

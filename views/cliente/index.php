@@ -10,11 +10,11 @@ echo '<div class="content-wrapper">
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <h1>
-    Cliente
+    Clientes
   </h1>
   <ol class="breadcrumb">
     <li><a href="../"><i class="fa fa-dashboard"></i> Home</a></li>
-    <li class="active">Cliente</li>
+    <li class="active">Clientes</li>
   </ol>
 </section>
 
@@ -51,7 +51,7 @@ echo '<div class="content-wrapper">
           $value = $_POST['public']; 
           if($value == 1){
             $public = 0;
-            $button_name = "Desativados";
+            $button_name = "Inativos";
 
           }else{
             $public = 1;
@@ -61,7 +61,7 @@ echo '<div class="content-wrapper">
         }else{
           $value = 1;
           $public = 0;
-          $button_name = "Desativados";
+          $button_name = "Inativos";
         }
 
         $cliente = new Cliente;

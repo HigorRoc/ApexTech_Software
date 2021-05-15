@@ -19,11 +19,10 @@ echo '<div class="content-wrapper">
     </section>
 
     <!-- Main content -->
-    <section class="content">
-    ';
+    <section class="content">';
+    
     require '../../layout/alert.php';
     echo '
-      <!-- Small boxes (Stat box) -->
       <div class="row">
       	<div class="box box-primary">
             <div class="box-header">
@@ -41,9 +40,7 @@ echo '<div class="content-wrapper">
                 </ul>
               </div>
             </div>
-            <!-- /.box-header -->
             <div class="box-body">';
-
 
         if(isset($_POST['public']) != NULL){               
 
@@ -66,16 +63,14 @@ echo '<div class="content-wrapper">
                $itens->index($value);
               
         echo ' </div>
-            <!-- /.box-body -->
            
             <div class="box-footer clearfix no-border">
              <form action="index.php" method="post">
-         <button name="public" type="submit" value="'.$public.'" class="btn btn-default pull-left"><i class="fa fa-plus"></i> '.$button_name.'</button></form>
+         <button name="public" type="submit" value="'.$public.'" class="btn btn-default pull-left"><i class="fa fa-times-circle" aria-hidden="true"></i> '.$button_name.'</button></form>
               <a href="additens.php" type="button" class="btn btn-success pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i> Adicionar Produto</a>
             </div>
-          </div>
-	 
-';
+          </div>';
+
 echo '</div>';
 echo '</section>';
       

@@ -17,22 +17,19 @@ echo '<!-- Content Header (Page header) -->
       </ol>
     </section>
 
-    <!-- Main content -->
     <section class="content">
-      <!-- Small boxes (Stat box) -->
       <div class="row">';
 
 echo ' <a href="./" class="btn btn-success">Voltar</a>
+      <hr>
       <div class="row">
-        <!-- left column -->
+
         <div class="col-md-6">
-          <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Produtos</h3>
             </div>
-            <!-- /.box-header -->
-            <!-- form start -->
+
             <form role="form" action="../../App/Database/insertprod.php" method="POST">
               <div class="box-body">
                 <div class="form-group">
@@ -40,7 +37,6 @@ echo ' <a href="./" class="btn btn-success">Voltar</a>
                   <input type="text" name="nomeProduto" class="form-control" id="exampleInputEmail1" placeholder="Nome Produto">
                 </div>
                  <input type="hidden" name="iduser" value="'.$idUsuario.'">
-              <!-- /.box-body -->
 
               <div class="box-footer">
                 <button type="submit" name="update" class="btn btn-primary" value="Cadastrar">Cadastrar</button>
@@ -48,7 +44,6 @@ echo ' <a href="./" class="btn btn-success">Voltar</a>
               </div>
             </form>
           </div>
-          <!-- /.box -->
           </div>
 </div>';
 

@@ -76,8 +76,7 @@ echo '<div class="content-wrapper">
             <!-- BUTTON CATEGORIAS -->
             <a href="addprod.php" type="button" class="btn btn-success pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i> Adicionar Produto</a>
             </div>
-          </div>
-';
+          </div>';
 
 echo '</div>';
 echo '</section>';

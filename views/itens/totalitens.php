@@ -10,7 +10,7 @@ echo '<div class="content-wrapper">
 		<!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Produtos cadastrados
+        Relatório de Produtos
       </h1>
       <ol class="breadcrumb">
         <li><a href="../"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -70,7 +70,7 @@ echo '<div class="content-wrapper">
            
             <div class="box-footer clearfix no-border">
              <form action="totalitens.php" method="post">
-         <button name="public" type="submit" value="'.$public.'" class="btn btn-default pull-left"><i class="fa fa-plus"></i> '.$button_name.'</button></form>
+         <button name="public" type="submit" value="'.$public.'" class="btn btn-default pull-left"><i class="fa fa-times-circle" aria-hidden="true"></i> '.$button_name.'</button></form>
               <a href="additens.php" type="button" class="btn btn-success pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i> Adicionar Produto</a>
             </div>
           </div>

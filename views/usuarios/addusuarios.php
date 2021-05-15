@@ -17,80 +17,74 @@ echo '<!-- Content Header (Page header) -->
       </ol>
     </section>
 
-    <!-- Main content -->
     <section class="content">
-      <!-- Small boxes (Stat box) -->
       <div class="row">';
 
-echo ' 
-      <div class="row">
-        <!-- left column -->
-        
-';
+echo '<div class="row">';
 
 if($perm == 1){
   echo '
     <div class="col-md-6">
-          <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Usuário</h3>
             </div>
-            <!-- /.box-header -->
-            <!-- form start -->
+
             <form role="form" enctype="multipart/form-data" action="../../App/Database/insertuser.php" method="POST">
               <div class="box-body">
+
+                <!-- NOME -->
                 <div class="form-group">
                   <label for="exampleInputEmail1">Nome</label>
                   <input type="text" name="username" class="form-control" id="exampleInputEmail1" placeholder="Nome do usuário">
                 </div>
 
+                <!-- EMAIL -->
                 <div class="form-group">
                   <label for="exampleInputEmail1">E-mail</label>
                   <input type="text" name="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail do usuário">
                 </div>
 
+                <!-- SENHA -->
                 <div class="form-group">
                   <label for="exampleInputEmail1">Informe uma senha</label>
                   <input type="password" name="password" class="form-control" id="exampleInputEmail1" placeholder="Password">
                 </div>
-                 
-              <!-- /.box-body -->
 
-             
+                <!-- FOTO PERFIL -->
                 <div class="form-group">
                   <label for="exampleInputEmail1">Foto Perfil</label>
-               <input id="arquivo" name="arquivo" type="file" class="form-control" id="exampleInputEmail1" placeholder="Imagem">
+                  <input id="arquivo" name="arquivo" type="file" class="form-control" id="exampleInputEmail1" placeholder="Imagem">
                 </div>
+
+                <!-- TIPO DE PERMISSÃO -->
                 <div class="form-group">
-                <label for="exampleInputEmail1">Tipo de Permissão</label>
-                <select name="permissao" class="form-control">
-                <option value="1">Administrador</option>
-                <option value= "2">Vendedor</option>
-                </select>
+                  <label for="exampleInputEmail1">Tipo de Permissão</label>
+                  <select name="permissao" class="form-control">
+                  <option value="1">Administrador</option>
+                  <option value= "2">Usuário</option>
+                  </select>
                 </div>
 
-                 <div class="box-footer">
-                <button type="submit" name="update" class="btn btn-primary" value="Cadastrar">Cadastrar</button>
-                <a class="btn btn-danger" href="../../views/prod">Cancelar</a>
-              </div>
-            </form>
-            
-';}else{
+                <!-- CADASTRAR E CANCELAR -->
+                <div class="box-footer">
+                  <button type="submit" name="update" class="btn btn-primary" value="Cadastrar">Cadastrar</button>
+                  <a class="btn btn-danger" href="../../views/prod">Cancelar</a>
+                </div>
+            </form>';
+}else{
 
-  echo ' <div class="col-md-12">  
+  echo '<div class="col-md-12">  
           <div class="box box-primary">
           <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Você não possui acesso!</h3>
-            </div> 
-            ';
+        </div> ';
 }
 echo '
-          </div>
-          <!-- /.box -->
-          </div>
-</div>';
+       </div>
+       </div>
+       </div>';
 
 echo '</div>';
 echo '</div>';

@@ -1,8 +1,6 @@
 <?php
 
-/**
- * Class Cliente
- */
+/*Class Cliente*/
 
 require_once 'connect.php';
 
@@ -28,7 +26,8 @@ class Cliente extends Connect
      			while ($row = mysqli_fetch_array($this->result)) {
 
 
-     				echo '<br />Cliente: '. $row['NomeCliente'];
+     				echo '<br/><b>Cliente: &nbsp;&nbsp;</b>'. $row['NomeCliente'];
+            echo '<b>&nbsp;&nbsp;&nbsp;CPF/CNPJ: &nbsp;&nbsp;</b>'. $row['cpfCliente'];
 
      			}
      		}

@@ -21,6 +21,7 @@ echo '<div class="content-wrapper">
     <!-- Main content -->
     <section class="content">
     ';
+
     require '../../layout/alert.php';
     echo '
       <!-- Small boxes (Stat box) -->
@@ -44,27 +45,22 @@ echo '<div class="content-wrapper">
             <!-- /.box-header -->
             <div class="box-body">
               <ul class="todo-list">';
-              
-               $usuario->index($perm);
-              
+                $usuario->index($perm);
+                
         echo '</ul>
             </div>
             <!-- /.box-body -->
             <div class="box-footer clearfix no-border">
              <a href="addusuarios.php" type="button" class="btn btn-success pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i> Adicionar Usuário</a>
             </div>
-          </div>
-	 
-';
+          </div>';
 echo '</div>';
 echo '</section>';
       
-       
-	  
 
 echo '</div>';
 
-echo  $footer;
+echo $footer;
 echo $javascript;
 ?>
 

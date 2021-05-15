@@ -1,16 +1,14 @@
 <?php
-session_start(); //Iniciando a sessão
+	session_start(); //Iniciando a sessão
 
-if(!isset($_SESSION["idUsuario"]) || !isset($_SESSION["usuario"])){
+	if(!isset($_SESSION["idUsuario"]) || !isset($_SESSION["usuario"])){
 
- 			header('Location: ../');
-}else{
+				header('Location: ../');
+	}else{
 
-	$idUsuario = $_SESSION["idUsuario"]; 
-	$usuario   = $_SESSION["usuario"];
-	$perm	   = $_SESSION["perm"];
-	$foto      = $_SESSION["foto"];
-
-}
-
+		$idUsuario = $_SESSION["idUsuario"]; 
+		$usuario   = $_SESSION["usuario"];
+		$perm	   = $_SESSION["perm"];
+		$foto      = $_SESSION["foto"];
+	}
 ?>

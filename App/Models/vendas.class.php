@@ -1,8 +1,6 @@
 <?php
 
-/**
-* Vendas
-*/
+/*Classe de Vendas*/
 
 require_once 'connect.php';
 
