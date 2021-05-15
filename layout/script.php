@@ -4,200 +4,200 @@ $url = 'http://localhost/projetos/website/views/';
 
 $head = '<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-language" content="pt-br"/> 
-  <!-- ICONE NA ABA -->
-  <link rel="sortcut icon" href="../views/dist/img/Apex.ico" type="image/x-icon"/>;
-  <!-- TITULO DA ABA -->
-  <title>ApexTech Software</title>
-  <!-- Tell the browser to be responsive to screen width -->
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="'.$url.'bootstrap/css/bootstrap.min.css">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="'.$url.'dist/css/AdminLTE.min.css">
-  <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="'.$url.'dist/css/skins/_all-skins.min.css">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="'.$url.'plugins/iCheck/flat/blue.css">
-  <!-- Morris chart -->
-  <link rel="stylesheet" href="'.$url.'plugins/morris/morris.css">
-  <!-- jvectormap -->
-  <link rel="stylesheet" href="'.$url.'plugins/jvectormap/jquery-jvectormap-1.2.2.css">
-  <!-- Date Picker -->
-  <link rel="stylesheet" href="'.$url.'plugins/datepicker/datepicker3.css">
-  <!-- Daterange picker -->
-  <link rel="stylesheet" href="'.$url.'plugins/daterangepicker/daterangepicker.css">
-  <!-- bootstrap wysihtml5 - text editor -->
-  <link rel="stylesheet" href="'.$url.'plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
-  <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-language" content="pt-br"/> 
+    <!-- ICONE NA ABA -->
+    <link rel="sortcut icon" href="../views/dist/img/Apex.ico" type="image/x-icon"/>
+    <!-- TITULO DA ABA -->
+    <title>ApexTech Software</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="'.$url.'bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="'.$url.'dist/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+        folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="'.$url.'dist/css/skins/_all-skins.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="'.$url.'plugins/iCheck/flat/blue.css">
+    <!-- Morris chart -->
+    <link rel="stylesheet" href="'.$url.'plugins/morris/morris.css">
+    <!-- jvectormap -->
+    <link rel="stylesheet" href="'.$url.'plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="'.$url.'plugins/datepicker/datepicker3.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="'.$url.'plugins/daterangepicker/daterangepicker.css">
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link rel="stylesheet" href="'.$url.'plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+    <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
 
-<!-- Imprimir Venda -->
+  <!-- Imprimir Venda -->
 
-  <script type="text/javascript">
-    
-    function cont(){
-       var conteudo = document.getElementById(\'print\').innerHTML;
-       tela_impressao = window.open(\'about:blank\');
-       tela_impressao.document.write(conteudo);
-       tela_impressao.window.print();
-       tela_impressao.window.close(); 
-    }
+    <script type="text/javascript">
+      
+      function cont(){
+        var conteudo = document.getElementById(\'print\').innerHTML;
+        tela_impressao = window.open(\'about:blank\');
+        tela_impressao.document.write(conteudo);
+        tela_impressao.window.print();
+        tela_impressao.window.close(); 
+      }
 
-</script>
-
-<!-- Imprimir Venda --> 
-
-  <script type="text/javascript">
-    $(document).ready(function(){
-    $("input[name=\'status[]\']").click(function(){
-      var $this = $( this );//guardando o ponteiro em uma variavel, por performance
-
-
-      var status = $this.attr(\'checked\') ? 1 : 0;
-      var id = $this.next(\'input\').val();
-
-
-      $.ajax({
-        url: \'action.php\',
-        type: \'GET\',
-        data: \'status=\'+status+\'&id=\'+id,
-        success: function( data ){
-          alert( data );
-        }
-      });
-    });
-  }); 
   </script>
 
-  <!-- Lista Cliente CPF -->
+  <!-- Imprimir Venda --> 
 
-<script type="text/javascript">
- 
- $(document).ready(function(){  
-      $(\'#cpfCliente\').keyup(function(){  
-           var query = $(this).val();  
-           if(query != "")  
-           {  
-                $.ajax({  
-                     url:"'.$url.'../App/Database/search.php",  
-                     method:"POST",  
-                     data:{query:query},  
-                     success:function(data)  
-                     {  
-                          
-                          $(\'#Listdata\').fadeIn();  
-                          $(\'#Listdata\').html(data);  
-                     }  
-                });  
-           }  
-      });  
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $("input[name=\'status[]\']").click(function(){
+        var $this = $( this );//guardando o ponteiro em uma variavel, por performance
 
 
-      $(\'#Listdata\').on("click","li", function(){  
-           $(\'#cpfCliente\').val($(this).text());  
-           $(\'#Listdata\').fadeOut();
-           <!-- console.log(event.target);-->
-      });
-  });  
- </script>
+        var status = $this.attr(\'checked\') ? 1 : 0;
+        var id = $this.next(\'input\').val();
 
- <!-- FIM Lista Cliente CPF --> 
 
- <!-- Consulta Qtd venda -->
-
-<script type="text/javascript">
-
- $(document).ready(function(){
-
-      $("#prodSubmit").click(function()  {
-    var prodSubmit = $("#prodSubmit").val();
-    var idItem = $("#idItem").val();
-    var qtd = $("#qtd").val();
-    
-    $.ajax({
-      type: "POST",
-      url: "'.$url.'../App/Database/carrinho.php",
-      data: {prodSubmit: prodSubmit, idItem: idItem, qtd:qtd},
-      success: function(data){
-              $(\'#listable\').fadeIn();  
-              $(\'#listable\').html(data);
-
+        $.ajax({
+          url: \'action.php\',
+          type: \'GET\',
+          data: \'status=\'+status+\'&id=\'+id,
+          success: function( data ){
+            alert( data );
           }
+        });
       });
     }); 
+    </script>
 
-    $(\'#listable\').on("click","li", function(){  
-           $(\'#idItem\').val($(data).text());
-           $(\'#qtd\').val($(data).text());  
-           $(\'#listable\').fadeOut();
-          
-            return false;
+    <!-- Lista Cliente CPF -->
 
-           <!-- console.log(event.target); -->
-      });           
-            
-    
- });  
- </script>
+  <script type="text/javascript">
+  
+  $(document).ready(function(){  
+        $(\'#cpfCliente\').keyup(function(){  
+            var query = $(this).val();  
+            if(query != "")  
+            {  
+                  $.ajax({  
+                      url:"'.$url.'../App/Database/search.php",  
+                      method:"POST",  
+                      data:{query:query},  
+                      success:function(data)  
+                      {  
+                            
+                            $(\'#Listdata\').fadeIn();  
+                            $(\'#Listdata\').html(data);  
+                      }  
+                  });  
+            }  
+        });  
 
- <script type="text/javascript">
-(function ($) {
 
-    RemoveTableRow = function (handler) {
-        var tr = $(handler).closest(\'tr\');
-
-        tr.fadeOut(400, function () {
-            tr.remove();
+        $(\'#Listdata\').on("click","li", function(){  
+            $(\'#cpfCliente\').val($(this).text());  
+            $(\'#Listdata\').fadeOut();
+            <!-- console.log(event.target);-->
         });
+    });  
+  </script>
 
-        return false;
-    };
+  <!-- FIM Lista Cliente CPF --> 
 
-    AddTableRow = function () {
+  <!-- Consulta Qtd venda -->
 
-        var newRow = $("<tr>");
-        var cols = \'<td></td>\';
-        var tabela = document.getElementById(\'products-table\');
-        var a = (tabela.getElementsByTagName(\'tr\'));
-        var b = a.length;
-        var i = b - 2;
-        var cont = 7 + i;
+  <script type="text/javascript">
 
-        cols += \'<td><input type="text" class="form-control" id="idItem" name="idItem[]" autocomplete="off" /></td>\';
-        cols += \'<td><input type="text" class="form-control" id="qtd" name="qtd[]" autocomplete="off" /><span id="stv" name="stv[]"></span></td>\';
-        cols += \'<td class="actions">\';
-        cols += \'<button class="btn btn-danger btn-xs" onclick="RemoveTableRow(this)" type="button"><i class="fa fa-trash"></i></button>\';
-        cols += \'</td>\';
+  $(document).ready(function(){
 
-        newRow.append(cols);
-        $("#products-table").append(newRow);
-        return false;
-    };
+        $("#prodSubmit").click(function()  {
+      var prodSubmit = $("#prodSubmit").val();
+      var idItem = $("#idItem").val();
+      var qtd = $("#qtd").val();
+      
+      $.ajax({
+        type: "POST",
+        url: "'.$url.'../App/Database/carrinho.php",
+        data: {prodSubmit: prodSubmit, idItem: idItem, qtd:qtd},
+        success: function(data){
+                $(\'#listable\').fadeIn();  
+                $(\'#listable\').html(data);
+
+            }
+        });
+      }); 
+
+      $(\'#listable\').on("click","li", function(){  
+            $(\'#idItem\').val($(data).text());
+            $(\'#qtd\').val($(data).text());  
+            $(\'#listable\').fadeOut();
+            
+              return false;
+
+            <!-- console.log(event.target); -->
+        });           
+              
+      
+  });  
+  </script>
+
+  <script type="text/javascript">
+  (function ($) {
+
+      RemoveTableRow = function (handler) {
+          var tr = $(handler).closest(\'tr\');
+
+          tr.fadeOut(400, function () {
+              tr.remove();
+          });
+
+          return false;
+      };
+
+      AddTableRow = function () {
+
+          var newRow = $("<tr>");
+          var cols = \'<td></td>\';
+          var tabela = document.getElementById(\'products-table\');
+          var a = (tabela.getElementsByTagName(\'tr\'));
+          var b = a.length;
+          var i = b - 2;
+          var cont = 7 + i;
+
+          cols += \'<td><input type="text" class="form-control" id="idItem" name="idItem[]" autocomplete="off" /></td>\';
+          cols += \'<td><input type="text" class="form-control" id="qtd" name="qtd[]" autocomplete="off" /><span id="stv" name="stv[]"></span></td>\';
+          cols += \'<td class="actions">\';
+          cols += \'<button class="btn btn-danger btn-xs" onclick="RemoveTableRow(this)" type="button"><i class="fa fa-trash"></i></button>\';
+          cols += \'</td>\';
+
+          newRow.append(cols);
+          $("#products-table").append(newRow);
+          return false;
+      };
 
 
-})(jQuery);
-</script>
+  })(jQuery);
+  </script>
 
-<!-- Consulta Qtd Vendas -->
+  <!-- Consulta Qtd Vendas -->
 
 
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn\'t work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn\'t work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">';
 
