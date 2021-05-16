@@ -23,6 +23,7 @@ echo '<div class="content-wrapper">
     <!-- Main content -->
     <section class="content">
     ';
+    
     require '../../layout/alert.php';
     echo '
       <!-- Small boxes (Stat box) -->

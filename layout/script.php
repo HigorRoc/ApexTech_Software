@@ -13,7 +13,7 @@ $head = '<!DOCTYPE html>
     <link rel="sortcut icon" href="'.$url.'dist/img/Apex.ico" type="image/x-icon"/>
 
     <!-- TITULO DA ABA -->
-    <title>Produtos</title>
+    <title>ApexTech</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -188,7 +188,7 @@ $head = '<!DOCTYPE html>
 
   $header = '<header class="main-header">
       <!-- Logo -->
-      <a href="index2.html" class="logo">
+      <a href="'.$url.'itens/index.php" class="logo">
 
         <!-- LOGO COM ABA FECHADA -->
         <span class="logo-mini"><b>A</b>PT</span>
