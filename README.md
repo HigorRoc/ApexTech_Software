@@ -130,7 +130,7 @@ Você pode visualizar o layout básico do projeto através [desse link](https://
 Esse projeto está sob a licença Apache 2.0. Veja o arquivo [LICENSE](LICENSE.md) para maiores detalhes.
 
 <!-- CONTRIBUIDORES  -->
-## :memo: Contribuidores
+## :busts_in_silhouette: Contribuidores
 <p>
     <a href="//github.com/HigorRoc"><img alt="Higor" title="Higor" src=".apextech/higor.png" width=90px height=90px/></a>
     <a href="//github.com/VictorNuPe"><img alt="Victor" title="Victor" src=".apextech/victor.png" width=90px height=90px/></a>
