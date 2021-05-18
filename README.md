@@ -122,7 +122,7 @@ apextech-software
 
 <!-- LAYOUT DO SISTEMA -->
 ## 💻 Layout
-Você pode visualizar o layout básico do projeto através [desse link](https://marvelapp.com/prototype/728ab14). Lembrando que não é necessáario ter uma conta no Google Drive para acessá-lo.
+Você pode visualizar o layout básico do projeto através [desse link](https://marvelapp.com/prototype/728ab14). Lembrando que não é necessáario ter uma conta no MarvelAPP para acessá-lo.
 (imagens com baixa resolução, o vídeo presente na pasta tem um melhor resultado e demonstração). 
 
 <!-- LICENSE  -->
