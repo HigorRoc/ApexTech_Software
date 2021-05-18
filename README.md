@@ -52,78 +52,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - `Cadastrar Representantes` | Realizar o Cadastro de Representantes dos fabricantes com Nome e Email;
 - `Registrar Venda` | Realizar o registro de uma venda e automaticamente atualizado a quantidade no estoque;
 
-<!--
-## 🔗 Estrutura
-A estrutura de arquivos deste projeto se encontra da seguinte maneira:
-```
-apextech-software
-├── App/
-│   └── Database/
-│       └── --todas as ações (delete, insert, search)--
-│   └── Models/
-|       ├── cliente.class.php
-|       ├── connect.php
-|       ├── fabricante.class.php
-|       ├── itens.class.php
-|       ├── produtos.class.php
-|       ├── representante.class.php
-|       ├── usuario.class.php
-|       └── vendas.class.php
-│   ├── auth.php
-│   ├── session.php
-├── DB
-│   ├── controlestoque.sql
-│   └── controlestoque_bkp.sql
-├── layout
-│   ├── alert.php
-│   ├── conteudo.php
-│   └── script.php
-├── views
-│   ├── bootstrap/
-|       ├── css
-|       ├── fonts
-|       └── js
-│   ├── build/
-|       ├── bootstrap-less
-|       └── less
-│   ├── cliente/
-|       ├── addcliente.php
-|       └── index.php
-│   ├── dist/
-|       ├── css
-|       ├── img
-|       └── js
-│   ├── fabricante/
-|       ├── addfabricante.php
-|       ├── editfabricante.php
-|       └── index.php
-│   ├── itens/
-|       ├── additens.php
-|       ├── edititens.php
-|       └── index.php
-│   ├── plugins/
-│   ├── prod/
-|       ├── addprod.php
-|       └── index.php
-│   ├── representate/
-|       ├── addrepresentante.php
-|       └── index.php
-│   ├── usuarios/
-│   ├── vendas/
-│   ├── destroy.php
-│   └── index.php
-├── .gitignore
-├── index.php
-├── LICENSE
-├── login.php
-└── README.md
-```
--->
-
 <!-- LAYOUT DO SISTEMA -->
 ## 💻 Layout
-Você pode visualizar o layout básico do projeto através [desse link](https://marvelapp.com/prototype/728ab14). Lembrando que não é necessáario ter uma conta no MarvelAPP para acessá-lo.
-(imagens com baixa resolução, o vídeo presente na pasta tem um melhor resultado e demonstração). 
+Você pode visualizar o layout básico do projeto através [desse link](https://marvelapp.com/prototype/728ab14). Lembrando que não é necessáario ter uma conta no MarvelAPP para acessá-lo. Segue também o link "não listado" de um vídeo no YouTube ([clique aqui](.toDoList/logo2.png)), onde demonstro a funcionalidade do software de uma forma mais prática e visual.
 
 <!-- LICENSE  -->
 ## :memo: Licença
