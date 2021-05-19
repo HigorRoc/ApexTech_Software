@@ -62,7 +62,7 @@ Esse projeto está sob a licença Apache 2.0. Veja o arquivo [LICENSE](LICENSE.m
 
 <!-- CONTRIBUIDORES  -->
 ## :busts_in_silhouette: Contribuidores
-[<img src=".apextech/HigorProfile.jpg" width=115 > <br> <sub> Higor Rocha </sub>](https://github.com/HigorRoc) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".toDoList/VictorProfile.jpg" width=115 > <br> <sub> Victor Pedreira</sub>](https://github.com/VictorNuPe) <br><sub>Aluno/Desenvolvedor</sub> |
+[<img src=".apextech/HigorProfile.jpg" width=115 > <br> <sub> Higor Rocha </sub>](https://github.com/HigorRoc) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".apextech/VictorProfile.jpg" width=115 > <br> <sub> Victor Pedreira</sub>](https://github.com/VictorNuPe) <br><sub>Aluno/Desenvolvedor</sub> |
 | :---: | :---: |  
 
 <!-- CONTATOS -->
