@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="ApexTech" title="ApexTech" src=".apextech/logo2.png" width=370px height=100px/>
+    <img alt="ApexTech" title="ApexTech" src=".apextech/logo2.png" width=350/>
 </h1>
 
 <p align="center">
@@ -62,12 +62,14 @@ Esse projeto está sob a licença Apache 2.0. Veja o arquivo [LICENSE](LICENSE.m
 
 <!-- CONTRIBUIDORES  -->
 ## :busts_in_silhouette: Contribuidores
-<p>
-    <a href="//github.com/HigorRoc"><img alt="Higor" title="Higor" src=".apextech/higor.png" width=90px height=90px/></a>
-    <a href="//github.com/VictorNuPe"><img alt="Victor" title="Victor" src=".apextech/victor.png" width=90px height=90px/></a>
-</p>
+[<img src=".apextech/HigorProfile.jpg" width=115 > <br> <sub> Higor Rocha </sub>](https://github.com/HigorRoc) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".toDoList/VictorProfile.jpg" width=115 > <br> <sub> Victor Pedreira</sub>](https://github.com/VictorNuPe) <br><sub>Aluno/Desenvolvedor</sub> |
+| :---: | :---: |  
 
 <!-- CONTATOS -->
 ## :speech_balloon: Contatos
 [![Instagram](https://img.shields.io/badge/-Instagram_-E4405F?&logo=Instagram&logoColor=FFFFFF)](https://instagram.com/hiigorrocha_)&nbsp;
 [![Linkedin](https://img.shields.io/badge/-Linkedln-0A66C2?&logo=Linkedin&logoColor=FFFFFF)](https://www.linkedin.com/in/higor-silva18/)&nbsp;
+
+---
+
+Copyright ©️ 2021 - ApexTech
